@@ -343,7 +343,7 @@ async def get_birthday(update: Update, context: ContextTypes.DEFAULT_TYPE):
         caption = (
             f"✨ *ВАША ИНДИВИДУАЛЬНАЯ КАРТА ДНЯ* ✨\n\n"
             f"{calculation_steps}\n"
-            f"🎯 *Ваш персональный день: {personal_day}*\n"
+            f"🎯 *Ваш число сегодня: {personal_day}*\n"
             f"🔮 *Энергия дня: {forecast_data.get('title', '')}*\n\n"
             f"⭐ *Позитив дня:*\n"
             f"{forecast_data.get('positive', '')}\n\n"
