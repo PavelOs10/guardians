@@ -19,7 +19,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# --- ОПРЕДЕЛЕНИЕ ПУТЕЙ ---
+# --- ОПРЕДЕЛЕНИЕ  ПУТЕЙ ---
 # Определяем, где лежит именно ЭТОТ файл (bot.py)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
